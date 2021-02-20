@@ -1,4 +1,4 @@
-baseURL = "https://n00bmind.github.io/"
+baseURL = "portfolio.n00bmind.me"
 languageCode = "en-us"
 title = "n00bmind's Portfolio"
 theme = "PaperMod"
