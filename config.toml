@@ -1,5 +1,32 @@
-baseURL = "http://example.org/"
+baseURL = "http://portfolio.n00bmind.me/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "novela"
+title = "n00bmind's Portfolio"
+theme = "PaperMod"
+enableRobotsTXT = true
+canonifyURLs = true
 
+[markup.goldmark.renderer]
+unsafe= true
+
+[social]
+github= "https://github.com/n00bmind"
+linkedin= "https://www.linkedin.com/in/oscar-penas/"
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        Name = "About me"
+        url = "/about/"
+        weight = 0
+
+    [[menu.main]]
+        identifier = "experience"
+        Name = "Experience"
+        url = "/experience/"
+        weight = 0
+
+    [[menu.main]]
+        identifier = "project"
+        Name = "Personal projects"
+        url = "/projects/"
+        weight = 0

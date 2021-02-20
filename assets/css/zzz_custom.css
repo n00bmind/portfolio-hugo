@@ -1,0 +1,28 @@
+.flex-row {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+}
+
+.flex-row > .flex-col {
+  flex: 1;
+  padding: 0 30px;
+}
+
+.flex-row > .flex-col-wide {
+  flex: 2;
+  padding: 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .flex-row > .flex-col {
+    padding: 0;
+
+  .flex-row > .flex-col-wide {
+    padding: 0;
+}
