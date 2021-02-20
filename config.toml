@@ -1,9 +1,10 @@
-baseURL = "http://portfolio.n00bmind.me/"
+baseURL = "https://n00bmind.github.io/"
 languageCode = "en-us"
 title = "n00bmind's Portfolio"
 theme = "PaperMod"
 enableRobotsTXT = true
 canonifyURLs = true
+publishdir = "n00bmind.github.io"
 
 [markup.goldmark.renderer]
 unsafe= true

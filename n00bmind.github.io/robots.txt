@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://n00bmind.github.io/sitemap.xml
