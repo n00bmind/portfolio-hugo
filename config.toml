@@ -16,7 +16,7 @@ linkedin= "https://www.linkedin.com/in/oscar-penas/"
 [menu]
     [[menu.main]]
         identifier = "about"
-        Name = "About me"
+        Name = "About"
         url = "/about/"
         weight = 0
 
@@ -27,7 +27,7 @@ linkedin= "https://www.linkedin.com/in/oscar-penas/"
         weight = 0
 
     [[menu.main]]
-        identifier = "project"
-        Name = "Personal projects"
+        identifier = "projects"
+        Name = "Projects"
         url = "/projects/"
         weight = 0

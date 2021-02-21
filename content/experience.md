@@ -1,10 +1,8 @@
 ---
-title: "Experience"
+title: "Professional experience"
 date: 2021-02-20T08:28:33Z
 draft: false
 ---
-
-Some of my professional experience
 
 {{< row >}}
 {{< col >}} {{< figure src="/imgs/glowmade_logo_Aartvark_blue.png" link="https://www.glowmade.com/" target="_blank" >}} {{< /col >}}
