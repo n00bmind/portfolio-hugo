@@ -1,0 +1,46 @@
+<ul>
+    <!-- Github -->
+    {{ with .Site.Social.github }}
+    <li>
+    <a href="{{ . }}" target="_blank" rel="noopener" class="contact-btn github">
+        {{ partial "svg/github.svg" (dict "class" "widget-social__link-icon") }}
+    </a>
+    </li>
+    {{ end }}
+
+    <!-- Twitter -->
+    {{ with .Site.Social.twitter }}
+    <li>
+    <a href="{{ . }}" target="_blank" rel="noopener" class="contact-btn twitter">
+        {{ partial "svg/twitter.svg" (dict "class" "widget-social__link-icon") }}
+    </a>
+    </li>
+    {{ end }}
+
+    <!-- Facebook -->
+    {{ with .Site.Social.facebook }}
+    <li>
+    <a href="{{ . }}" target="_blank" rel="noopener" class="contact-btn facebook">
+        {{ partial "svg/facebook.svg" (dict "class" "widget-social__link-icon") }}
+    </a>
+    </li>
+    {{ end }}
+
+    <!-- LinkedIn -->
+    {{ with .Site.Social.linkedin }}
+    <li>
+    <a href="{{ . }}" target="_blank" rel="noopener" class="contact-btn linkedin">
+        {{ partial "svg/linkedin.svg" (dict "class" "widget-social__link-icon") }}
+    </a>
+    </li>
+    {{ end }}
+
+    <!-- Email -->
+    {{ with .Site.Social.email }}
+    <li>
+    <a href="mailto:{{ . }}" target="_blank" class="contact-btn">
+        {{ partial "svg/email.svg" (dict "class" "widget-social__link-icon") }}
+    </a>
+    </li>
+    {{ end }}
+</ul>

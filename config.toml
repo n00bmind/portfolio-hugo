@@ -11,12 +11,16 @@ publishdir = "n00bmind.github.io"
     showLastUpdated = false
     centerTheme = true
 
+    [params.logo]
+        logoText = "n00bmind's portfolio"
+
 [markup.goldmark.renderer]
     unsafe= true
 
 [social]
-    github= "https://github.com/n00bmind"
-    linkedin= "https://www.linkedin.com/in/oscar-penas/"
+    github = "https://github.com/n00bmind"
+    linkedin = "https://www.linkedin.com/in/oscar-penas/"
+    email = "oscarpp80@gmail.com"
 
 [menu]
     [[menu.main]]

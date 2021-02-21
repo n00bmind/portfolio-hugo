@@ -1,0 +1,151 @@
+.flex-row {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+}
+
+.flex-row > .flex-col {
+  flex: 1;
+  padding: 0 30px;
+}
+
+.flex-row > .flex-col-wide {
+  flex: 2;
+  padding: 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .flex-row > .flex-col {
+        padding: 0;
+    }
+
+    .flex-row > .flex-col-wide {
+        padding: 0;
+    }
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-menu {
+    float: left;
+}
+
+.right-menu {
+    float: right;
+}
+
+.right-menu ul {
+    list-style-type: none;
+}
+
+.right-menu ul li{
+    display: inline-block;
+    padding-left: 25px;
+    position: relative;
+}
+
+svg {
+    fill: #ffffff;
+    stroke: #ffffff;
+}
+/*
+
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.social-share {
+	position: relative;
+	right: -0.5em;
+}
+ 
+.social-share ul {
+	margin: 0;
+}
+ 
+.social-share ul li p {
+	display: none;
+}
+ 
+.social-share .share-icons li {
+	padding: 0 !important;
+	padding-bottom: 10px !important;
+}
+ 
+.social-share .share-btn {
+	padding: 0.25em;
+	width: 3em;
+}
+ 
+.social-share-nav .share-btn h3{
+	color: #ffffff;
+}
+
+ul.share-icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 1em;
+}
+
+ul.share-icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
+
+ul.share-icons li:last-child {
+	padding-right: 0;
+}
+
+ul.share-icons li > * {
+	text-decoration: none;
+	border: 0;
+}
+
+ul.share-icons li > *:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+ul.share-icons li > * .label {
+	display: none;
+}
+ 
+.share-btn:hover {
+	color: #ffffff !important;
+}
+
+.share-btn:active {
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+	color: #e2e2e2;
+	outline: none;
+}
+.share-btn .widget-social__link-icon {
+	margin: 0;
+}
+
+*/

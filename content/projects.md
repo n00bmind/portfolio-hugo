@@ -5,6 +5,7 @@ draft: false
 date: false
 ---
 
+<section>
 {{< row >}}
 {{< col >}} {{< figure src="/imgs/dodo_blue.jpg" link="https://github.com/n00bmind/dodo-lang" target="_blank" >}} {{< /col >}}
 
@@ -13,10 +14,9 @@ date: false
 A sandbox to explore language design ideas while I learn more about compilers. I had written my own scripting language before, but never a "real" language, and never writing all the code myself from scratch. At the moment it's just barely a transpiler to C, but I hope to continue adding code generation and maybe even explore some optimization techniques.
 {{< /wide-col >}}
 {{< /row >}}
+</section>
 
-<br/>
-<br/>
-
+<section>
 {{< row >}}
 {{< col >}} {{< figure src="/imgs/robotrider.jpg" link="https://github.com/n00bmind/robotrider" target="_blank" >}} {{< /col >}}
 
@@ -30,4 +30,5 @@ A few interesting topics I've been exploring since I started:
 - Wave function collapse
 {{< /wide-col >}}
 {{< /row >}}
+</section>
 
