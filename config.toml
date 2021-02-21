@@ -1,17 +1,22 @@
 baseURL = "https://portfolio.n00bmind.me"
 languageCode = "en-us"
 title = "n00bmind's Portfolio"
-theme = "PaperMod"
+theme = "terminal"
 enableRobotsTXT = true
 canonifyURLs = true
 publishdir = "n00bmind.github.io"
 
+[params]
+    fullWidthTheme = false
+    showLastUpdated = false
+    centerTheme = true
+
 [markup.goldmark.renderer]
-unsafe= true
+    unsafe= true
 
 [social]
-github= "https://github.com/n00bmind"
-linkedin= "https://www.linkedin.com/in/oscar-penas/"
+    github= "https://github.com/n00bmind"
+    linkedin= "https://www.linkedin.com/in/oscar-penas/"
 
 [menu]
     [[menu.main]]

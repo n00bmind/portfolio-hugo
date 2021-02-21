@@ -2,8 +2,9 @@
 title: "About me"
 date: 2021-02-19T18:21:28Z
 draft: false
+date: false
 ---
-
+{{< figure src="/imgs/moral_cropped.jpg" >}}
 Welcome!
 
 I'm Oscar Peñas. I was born a loong time ago somewhere in the south coast of Spain.<br/>

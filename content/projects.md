@@ -2,6 +2,7 @@
 title: "Personal projects"
 date: 2021-02-21T00:09:38Z
 draft: false
+date: false
 ---
 
 {{< row >}}
@@ -13,7 +14,12 @@ A sandbox to explore language design ideas while I learn more about compilers. I
 {{< /wide-col >}}
 {{< /row >}}
 
+<br/>
+<br/>
+
 {{< row >}}
+{{< col >}} {{< figure src="/imgs/robotrider.jpg" link="https://github.com/n00bmind/robotrider" target="_blank" >}} {{< /col >}}
+
 {{< wide-col >}}
 ### robotrider
 An engine/game still in very early development. Started as a way to explore less common practices in the industry (such as avoiding OOP and external dependencies as much as possible) and also to learn concepts and techniques which I’ve never had the chance to explore in depth before (fully custom-made platform layer, custom memory allocators, hot-reloading of code/data/shaders, PCG, etc)
@@ -23,7 +29,5 @@ A few interesting topics I've been exploring since I started:
 - Mesh simplification & QEF minimization
 - Wave function collapse
 {{< /wide-col >}}
-
-{{< col >}} {{< figure src="/imgs/robotrider.jpg" link="https://github.com/n00bmind/robotrider" target="_blank" >}} {{< /col >}}
 {{< /row >}}
 
