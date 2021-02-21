@@ -1,0 +1,5 @@
+
+:: KNOWN ISSUES ::
+
+- The terminal theme overrides the 'figure' shortcode with its own, which is missing basic stuff like the link attribute!
+    I had to delete figure.html from themes\terminal\layouts\shortcodes, which will probably be a problem if/when upgrading it.

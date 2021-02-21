@@ -7,7 +7,7 @@ date: false
 
 <section>
 {{< row >}}
-{{< col >}} {{< figure src="/imgs/dodo_blue.jpg" link="https://github.com/n00bmind/dodo-lang" target="_blank" >}} {{< /col >}}
+{{< col >}} {{< figure src="/imgs/dodo.jpg" link="https://github.com/n00bmind/dodo-lang" target="_blank" >}} {{< /col >}}
 
 {{< wide-col >}}
 ### dodo-lang
@@ -18,7 +18,7 @@ A sandbox to explore language design ideas while I learn more about compilers. I
 
 <section>
 {{< row >}}
-{{< col >}} {{< figure src="/imgs/robotrider.jpg" link="https://github.com/n00bmind/robotrider" target="_blank" >}} {{< /col >}}
+{{< col >}} {{< figure src="/imgs/robot_rider.jpg" link="https://github.com/n00bmind/robotrider" target="_blank" >}} {{< /col >}}
 
 {{< wide-col >}}
 ### robotrider

@@ -6,7 +6,7 @@ date: false
 ---
 
 {{< row >}}
-{{< col >}} {{< figure src="/imgs/glowmade_logo_Aartvark_blue.png" link="https://www.glowmade.com/" target="_blank" >}} {{< /col >}}
+{{< col >}} {{< figure src="/imgs/glowmade.jpg" link="https://www.glowmade.com/" target="_blank" >}} {{< /col >}}
 
 {{< wide-col >}}
 ## Engine programmer @ Glowmade
@@ -21,7 +21,7 @@ Working in a small studio creating new features for their proprietary engine, bo
 <br/>
 
 {{< row >}}
-{{< col >}} {{< figure src="/imgs/hangar13_darkred.jpg" link="https://hangar13games.com/" target="_blank" >}} {{< /col >}}
+{{< col >}} {{< figure src="/imgs/hangar13.jpg" link="https://hangar13games.com/" target="_blank" >}} {{< /col >}}
 
 {{< wide-col >}}
 ## Systems & engine programmer @ Hangar 13
@@ -51,7 +51,7 @@ Worked with the PS4 team on memory profiling and optimization for the platform, 
 <br/>
 
 {{< row >}}
-{{< col >}} {{< figure src="/imgs/nova.webp" link="https://www.gameloft.com/en/game/nova-legacy-mobile" target="_blank" >}} {{< /col >}}
+{{< col >}} {{< figure src="/imgs/nova.jpg" link="https://www.gameloft.com/en/game/nova-legacy-mobile" target="_blank" >}} {{< /col >}}
 
 {{< wide-col >}}
 ## Senior developer @ Gameloft
@@ -81,7 +81,7 @@ Worked on the development of a mobile app (finally discontinued) with a common c
 <br/>
 
 {{< row >}}
-{{< col >}} {{< figure src="/imgs/pocoyo.png" link="https://www.youtube.com/watch?v=ClwoekiYh4o" target="_blank" >}} {{< /col >}}
+{{< col >}} {{< figure src="/imgs/pocoyo.jpg" link="https://www.youtube.com/watch?v=ClwoekiYh4o" target="_blank" >}} {{< /col >}}
 
 {{< wide-col >}}
 ## Programmer @ Zinkia
